@@ -8,7 +8,7 @@
   "packageManager": "pnpm@11.8.0",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro check && astro build && pagefind --site dist && cp -r dist/pagefind public/",
+    "build": "astro check && astro build && pagefind --site dist && node -e \"const fs=require('fs');const p='dist/pagefind',t='public/pagefind';if(fs.existsSync(p)){fs.rmSync(t,{recursive:true,force:true});fs.cpSync(p,t,{recursive:true})}\"",
     "preview": "astro preview",
     "sync": "astro sync",
     "astro": "astro",

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="100%" style="stop-color:#1e293b"/>
+    </linearGradient>
+  </defs>
+  <!-- 圆角方形背景 -->
+  <rect width="512" height="512" rx="96" fill="url(#bg)"/>
+  <!-- 电路装饰线条 -->
+  <line x1="60" y1="380" x2="160" y2="380" stroke="#38bdf8" stroke-width="2" opacity="0.2"/>
+  <line x1="160" y1="380" x2="160" y2="340" stroke="#38bdf8" stroke-width="2" opacity="0.2"/>
+  <circle cx="160" cy="340" r="4" fill="#38bdf8" opacity="0.2"/>
+  <line x1="352" y1="132" x2="352" y2="172" stroke="#38bdf8" stroke-width="2" opacity="0.2"/>
+  <line x1="352" y1="172" x2="452" y2="172" stroke="#38bdf8" stroke-width="2" opacity="0.2"/>
+  <circle cx="352" cy="132" r="4" fill="#38bdf8" opacity="0.2"/>
+  <line x1="80" y1="420" x2="120" y2="420" stroke="#38bdf8" stroke-width="1.5" opacity="0.15"/>
+  <circle cx="120" cy="420" r="3" fill="#38bdf8" opacity="0.15"/>
+  <line x1="392" y1="92" x2="432" y2="92" stroke="#38bdf8" stroke-width="1.5" opacity="0.15"/>
+  <circle cx="392" cy="92" r="3" fill="#38bdf8" opacity="0.15"/>
+  <!-- 字母 e -->
+  <text x="256" y="340" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="300" font-weight="700" fill="#38bdf8" text-anchor="middle">e</text>
+</svg>

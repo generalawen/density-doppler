@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="100%" style="stop-color:#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <!-- 装饰线条 -->
+  <line x1="0" y1="200" x2="60" y2="200" stroke="#38bdf8" stroke-width="2" opacity="0.4"/>
+  <line x1="1140" y1="430" x2="1200" y2="430" stroke="#38bdf8" stroke-width="2" opacity="0.4"/>
+  <circle cx="80" cy="520" r="3" fill="#38bdf8" opacity="0.3"/>
+  <circle cx="1120" cy="110" r="3" fill="#38bdf8" opacity="0.3"/>
+  <circle cx="40" cy="100" r="2" fill="#38bdf8" opacity="0.2"/>
+  <circle cx="1160" cy="530" r="2" fill="#38bdf8" opacity="0.2"/>
+  <!-- 主标题 -->
+  <text x="600" y="290" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="72" font-weight="700" fill="#e2e8f0" text-anchor="middle">epoch's Tech Life</text>
+  <!-- 副标题 -->
+  <text x="600" y="360" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="28" fill="#94a3b8" text-anchor="middle">写技术 · 记踩坑 · 偶尔聊点别的</text>
+  <!-- 分割线 -->
+  <line x1="450" y1="400" x2="750" y2="400" stroke="#38bdf8" stroke-width="2" opacity="0.4"/>
+</svg>

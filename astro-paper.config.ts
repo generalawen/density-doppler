@@ -7,7 +7,7 @@ export default defineAstroPaperConfig({
     description: "记录技术探索与生活思考的个人博客",
     author: "epoch",
     profile: "https://generalawen.github.io/density-doppler",
-    ogImage: "default-og.svg",
+    ogImage: "og.png",
     lang: "zh",
     timezone: "Asia/Shanghai",
     dir: "ltr",

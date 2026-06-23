@@ -28,7 +28,8 @@ const { Content } = await render(about);
 
   <Breadcrumb />
 
-  <Main pageTitle={about.data.title} class="app-prose">
+  <Main pageTitle={about.data.title} pageDesc="" class="app-prose">
+    <img src={import.meta.env.BASE_URL + "banner.svg"} alt="banner" class="w-full rounded-lg mb-6" />
     <Content />
   </Main>
 

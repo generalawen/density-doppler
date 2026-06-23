@@ -34,9 +34,12 @@ const homePath = getRelativeLocaleUrl(locale, "");
     class="app-layout"
   >
     <section id="hero" class="border-border border-b pt-8 pb-6">
-      <h1 class="my-4 inline-block text-4xl font-bold sm:my-8 sm:text-5xl">
-        epoch
-      </h1>
+      <div class="flex items-center gap-5 mb-4">
+        <img src={import.meta.env.BASE_URL + "avatar.svg"} alt="avatar" width={80} height={80} class="rounded-full" />
+        <h1 class="inline-block text-4xl font-bold sm:text-5xl">
+          epoch
+        </h1>
+      </div>
       <a
         target="_blank"
         href={`${import.meta.env.BASE_URL.replace(/\/?$/, "/")}rss.xml`}
