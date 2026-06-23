@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="100%" style="stop-color:#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <text x="100" y="280" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="700" fill="#e2e8f0">epoch's Tech Life</text>
+  <text x="100" y="360" font-family="system-ui, -apple-system, sans-serif" font-size="32" fill="#94a3b8">写技术 · 记踩坑 · 偶尔聊点别的</text>
+  <line x1="100" y1="400" x2="500" y2="400" stroke="#38bdf8" stroke-width="3" opacity="0.5"/>
+</svg>
