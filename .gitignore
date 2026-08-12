@@ -34,3 +34,6 @@ public/pagefind
 
 # docker compose
 compose.override.yaml
+CODEBUDDY.md
+临时笔记/
+.gitignore
