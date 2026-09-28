@@ -2,7 +2,6 @@
 title: ""
 description: "关于我和这个博客"
 ---
-
 ## 关于我
 
 你好，我是 epoch，26 岁，Java 后端开发，写了四年代码。
@@ -16,7 +15,7 @@ description: "关于我和这个博客"
 
 - **技术实践** — 后端开发、架构踩坑、线上排查
 - **工具与效率** — 好用的工具、环境配置、自动化小脚本
-- **学习笔记** — 折腾新东西的记录
+- **学习笔记** — 学习新东西的记录
 - **生活随想** — 工作之外的想法和日常
 
 博客用 [Astro](https://astro.build/) 搭的，样式靠 [Tailwind CSS](https://tailwindcss.com/)，主题参考了 [AstroPaper](https://github.com/satnaing/astro-paper)，托管在 GitHub Pages。怎么简单怎么来。
